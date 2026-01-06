@@ -1,4 +1,4 @@
-# 🚀 QR Code Generator Web Application
+# QR Code Generator Web Application
 
 A modern and simple **QR Code Generator Web Application** that converts any valid URL into a downloadable QR code.  
 This project is built using **Node.js, Express, HTML, CSS, and JavaScript** and is suitable for learning, portfolio, and job applications.
@@ -34,19 +34,18 @@ This project is built using **Node.js, Express, HTML, CSS, and JavaScript** and 
 ```
 qr-code-generator/
 │
-├── index.js # Backend server (Node + Express)
-├── package.json # Project metadata & dependencies
-├── package-lock.json # Dependency lock file
-├── URL.txt # Stored test URLs
+├── index.js                  
+├── package.json
+├── package-lock.json
+├── URL.txt                   
+├── README.md                 
 │
-├── index.html # Frontend UI
-├── styles.css # Styling & animations
-├── frontend.js # Client-side logic
-│
-└── README.md # Project documentation
+├── public/                  
+│   ├── index.html
+│   ├── styles.css
+│   ├── frontend.js
+
 ```
-
-
 
 ---
 
@@ -64,9 +63,9 @@ qr-code-generator/
 
 **Sahil Satish Pawar**
 
-Email: your-email@example.com  
-LinkedIn: https://linkedin.com/in/your-profile  
-GitHub: https://github.com/your-username
+Email: sahilpawarsp045@gmail.com 
+LinkedIn: https://www.linkedin.com/in/sahil-pawar-957b2a314
+GitHub: https://github.com/pawarsahil2005
 
 ---
 

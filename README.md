@@ -35,7 +35,7 @@ Built using **Node.js, Express, HTML, CSS, and JavaScript** with a clean UI and 
 
 ## 📂 Project Structure
 
-qr-code-generator/
+### qr-code-generator/
 │
 ├── index.js # Backend server (Node + Express)
 ├── package.json # Project metadata & dependencies

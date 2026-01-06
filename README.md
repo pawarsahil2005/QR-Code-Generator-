@@ -46,8 +46,22 @@ qr-code-generator/
 │   ├── frontend.js
 
 ```
-![Description](Images/Screenshot1.png)
+## 📸 Screenshots
 
+<table>
+  <tr>
+    <td>
+      <img src="images/home.png" width="250" alt="Home Page"/><br>
+      Home Page
+    </td>
+    <td>
+      <img src="images/qr-generated.png" width="250" alt="QR Generated"/><br>
+      QR Generated
+    </td>
+  </tr>
+</table>
+
+---
 ---
 
 ## 🚀 Future Improvements

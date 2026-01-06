@@ -45,3 +45,37 @@ qr-code-generator/
 │
 └── README.md # Project documentation
 ```
+
+
+
+---
+
+## 🚀 Future Improvements
+
+- Custom QR code colors and sizes
+- Mobile-friendly UI
+- QR code generation history
+- User authentication
+- Cloud deployment
+
+---
+
+## 👨‍💻 Author
+
+**Sahil Satish Pawar**
+
+Email: your-email@example.com  
+LinkedIn: https://linkedin.com/in/your-profile  
+GitHub: https://github.com/your-username
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.  
+You are free to use, modify, and distribute it.
+
+---
+
+⭐ If you like this project, please star the repository!
+

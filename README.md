@@ -51,11 +51,11 @@ qr-code-generator/
 <table>
   <tr>
     <td>
-      <img src="images/home.png" width="250" alt="Home Page"/><br>
+      <img src="Images/Screenshot1.png" width="250" alt="Home Page"/><br>
       Home Page
     </td>
     <td>
-      <img src="images/qr-generated.png" width="250" alt="QR Generated"/><br>
+      <img src="Images/Screenshot2.png" width="250" alt="QR Generated"/><br>
       QR Generated
     </td>
   </tr>

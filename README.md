@@ -3,14 +3,6 @@
 A **modern, responsive QR Code Generator** that converts any valid URL into a downloadable QR code.  
 Built using **Node.js, Express, HTML, CSS, and JavaScript** with a clean UI and smooth user experience.
 
-This project is ideal for **portfolio showcase, internships, and job applications**, demonstrating full-stack development skills.
-
----
-
-## 🔗 Live Demo
-> Add your deployed link here (optional)  
-Example: https://qr-code-generator.onrender.com
-
 ---
 
 ## ✨ Features
@@ -42,4 +34,17 @@ Example: https://qr-code-generator.onrender.com
 ---
 
 ## 📂 Project Structure
+
+qr-code-generator/
+│
+├── index.js # Backend server (Node + Express)
+├── package.json # Project metadata & dependencies
+├── package-lock.json # Dependency lock file
+├── URL.txt # Stored test URLs
+│
+├── index.html # Frontend UI
+├── styles.css # Styling & animations
+├── frontend.js # Client-side logic
+│
+└── README.md # Project documentatio
 

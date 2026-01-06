@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator - Beautiful & Modern</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-qrcode"></i>
+                <h1>QR Generator</h1>
+            </div>
+            <p class="tagline">Transform any URL into a QR code instantly</p>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Create Your QR Code</h2>
+                    <p>Enter any URL below and we'll generate a QR code for you</p>
+                </div>
+                
+                <div class="form-container">
+                    <form id="qr-form" class="qr-form">
+                        <div class="input-group">
+                            <i class="fas fa-link input-icon"></i>
+                            <input 
+                                type="url" 
+                                id="url-input" 
+                                placeholder="https://example.com" 
+                                required
+                                autocomplete="url"
+                            >
+                        </div>
+                        <button type="submit" id="generate-btn" class="generate-btn">
+                            <i class="fas fa-magic"></i>
+                            <span>Generate QR Code</span>
+                        </button>
+                    </form>
+                </div>
+
+                <div class="result-section" id="result-section" style="display: none;">
+                    <div class="success-animation">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>QR Code Generated Successfully!</h3>
+                    </div>
+                    
+                    <div class="qr-container">
+                        <div class="qr-wrapper">
+                            <img id="qr-image" src="" alt="Generated QR Code" class="qr-image">
+                            <div class="qr-overlay">
+                                <i class="fas fa-download"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="qr-info">
+                            <div class="url-display">
+                                <label>Original URL:</label>
+                                <p class="qr-url" id="qr-url"></p>
+                            </div>
+                            
+                            <div class="qr-actions">
+                                <button class="action-btn primary" id="download-btn">
+                                    <i class="fas fa-download"></i>
+                                    Download PNG
+                                </button>
+                                <button class="action-btn secondary" id="copy-btn">
+                                    <i class="fas fa-copy"></i>
+                                    Copy URL
+                                </button>
+                                <button class="action-btn tertiary" id="new-qr-btn">
+                                    <i class="fas fa-plus"></i>
+                                    New QR Code
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="error-message" id="error-message" style="display: none;">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <span id="error-text"></span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 QR Code Generator</p>
+        </div>
+    </footer>
+
+    <script src="frontend.js"></script>
+</body>
+</html>
